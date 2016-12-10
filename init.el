@@ -7,3 +7,6 @@
 
 ;; insert tabs as spaces
 (setq-default indent-tabs-mode nil)
+
+;; scroll one line at a time
+(setq scroll-step 1)
