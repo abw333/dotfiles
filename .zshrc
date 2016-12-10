@@ -43,7 +43,6 @@ git_branch() {
     git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/ (\1)/"
 }
 
-autoload -U colors && colors
 setopt prompt_subst
 
 PROMPT='%{$fg[magenta]%}$(dir_name)%{$fg[yellow]%}$(git_branch) %{$fg[cyan]%}∴%{$reset_color%} '
