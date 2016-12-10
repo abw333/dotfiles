@@ -46,7 +46,7 @@ git_branch() {
 autoload -U colors && colors
 setopt prompt_subst
 
-PROMPT='%{$fg[magenta]%}$(dir_name)%{$fg[yellow]%}$(git_branch) %{$fg[cyan]%}∴ '
+PROMPT='%{$fg[magenta]%}$(dir_name)%{$fg[yellow]%}$(git_branch) %{$fg[cyan]%}∴%{$reset_color%} '
 
 # aliases
 alias ls="ls -aG"
