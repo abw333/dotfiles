@@ -59,3 +59,6 @@ alias ss="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resou
 
 # history
 setopt HIST_IGNORE_ALL_DUPS
+
+# directory structure
+GIT_ROOT="$HOME/git"
