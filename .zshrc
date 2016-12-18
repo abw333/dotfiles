@@ -62,3 +62,8 @@ setopt HIST_IGNORE_ALL_DUPS
 
 # directory structure
 GIT_ROOT="$HOME/git"
+
+# virtualenvwrapper
+WORKON_HOME="$HOME/.virtualenvwrapper"
+VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
+source "/usr/local/bin/virtualenvwrapper.sh"
