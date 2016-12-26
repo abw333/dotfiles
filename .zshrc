@@ -12,9 +12,6 @@ zplug "plugins/aws", from:oh-my-zsh
 zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/pip", from:oh-my-zsh
 
-# let zplug manage zplug
-zplug update --self
-
 # install plugins
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
