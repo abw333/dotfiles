@@ -58,7 +58,7 @@ alias ss="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resou
 setopt HIST_IGNORE_ALL_DUPS
 
 # git
-GIT_ROOT="$HOME/git"
+export GIT_ROOT="$HOME/git"
 alias git_status="find $GIT_ROOT -mindepth 1 -maxdepth 1 -exec basename {} \; -exec git -C {} status -bs \; -exec echo \;"
 
 # virtualenvwrapper
