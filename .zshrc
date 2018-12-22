@@ -52,7 +52,7 @@ alias up="cd .."
 
 alias grep="grep --color=auto"
 
-alias ss="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
+alias ss="open -a ScreenSaverEngine"
 
 # history
 setopt HIST_IGNORE_ALL_DUPS
